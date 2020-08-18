@@ -25,6 +25,7 @@ master.menu.home = Inicio
 master.menu.sign-up = Registrarse
 master.menu.sign-in = Entrar
 master.menu.sign-out = Salir
+master.menu.bulletin = Boletines
 
 # master.menu.anonymous #######################################################
 
@@ -35,6 +36,18 @@ master.menu.anonymous.favourite-link.ignacio = Enlace favorito de Ignacio
 master.menu.anonymous.favourite-link.alvaro = Enlace favorito de Alvaro
 master.menu.anonymous.favourite-link.josema = Enlace favorito de Josema
 master.menu.anonymous.favourite-link.guille = Enlace favorito de Guille
+master.menu.anonymous.List-Diazbulletins = Listar DiazBoletín
+master.menu.anonymous.Create-Diazbulletins = Crear DiazBoletín
+master.menu.anonymous.List-Rubiobulletins = Listar RubioBoletín
+master.menu.anonymous.Create-Rubiobulletins = Crear RubioBoletín
+master.menu.anonymous.List-Gallardobulletins = Listar GallardoBoletín
+master.menu.anonymous.Create-Gallardobulletins = Crear GallardoBoletín
+master.menu.anonymous.List-Pavonbulletins = Listar PavonBoletín
+master.menu.anonymous.Create-Pavonbulletins = Crear PavonBoletín
+master.menu.anonymous.List-Maderobulletins = Listar MaderoBoletín
+master.menu.anonymous.Create-Maderobulletins = Crear MaderoBoletín
+master.menu.anonymous.List-Sanabriabulletins = Listar SanabriaBoletín
+master.menu.anonymous.Create-Sanabriabulletins = Crear SanabriaBoletín
 
 # master.menu.administrator ###################################################
 

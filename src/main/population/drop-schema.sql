@@ -27,7 +27,19 @@
 
     drop table if exists `consumer`;
 
+    drop table if exists `diazbulletin`;
+
+    drop table if exists `gallardobulletin`;
+
+    drop table if exists `maderobulletin`;
+
+    drop table if exists `pavonbulletin`;
+
     drop table if exists `provider`;
+
+    drop table if exists `rubiobulletin`;
+
+    drop table if exists `sanabriabulletin`;
 
     drop table if exists `user_account`;
 
