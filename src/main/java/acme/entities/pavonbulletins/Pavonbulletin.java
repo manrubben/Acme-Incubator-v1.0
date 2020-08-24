@@ -1,12 +1,13 @@
 
 package acme.entities.pavonbulletins;
 
-import java.util.Date;
+import java.time.LocalDateTime;
 
 import javax.persistence.Entity;
-import javax.persistence.Temporal;
-import javax.persistence.TemporalType;
 import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
+
+import org.springframework.format.annotation.DateTimeFormat;
 
 import acme.framework.entities.DomainEntity;
 import lombok.Getter;
@@ -30,7 +31,8 @@ public class Pavonbulletin extends DomainEntity {
 	@NotBlank
 	private String				text;
 
-	@Temporal(TemporalType.DATE)
-	private Date				date;
+	@DateTimeFormat(pattern = "dd-MM-yyyy HH:mm")
+	@NotNull
+	private LocalDateTime		date;
 
 }
