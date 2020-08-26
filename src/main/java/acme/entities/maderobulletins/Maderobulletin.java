@@ -4,6 +4,8 @@ package acme.entities.maderobulletins;
 import javax.persistence.Entity;
 import javax.validation.constraints.NotBlank;
 
+import org.hibernate.validator.constraints.URL;
+
 import acme.framework.entities.DomainEntity;
 import lombok.Getter;
 import lombok.Setter;
@@ -23,6 +25,7 @@ public class Maderobulletin extends DomainEntity {
 	private String				author;
 
 	@NotBlank
+	@URL
 	private String				photo;
 
 }

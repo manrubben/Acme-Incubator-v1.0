@@ -40,12 +40,12 @@
 
 	<!-- RubioBulletin -->
 	
-	<bean id="Ruiobulletin1" class="acme.entities.rubiobulletins.Rubiobulletin">
+	<bean id="Rubiobulletin1" class="acme.entities.rubiobulletins.Rubiobulletin">
 		<property name="author" value="Carles carles"></property>
 		<property name="link" value="blablabla.com"></property>
 	</bean>
 	
-	<bean id="Ruiobulletin2" class="acme.entities.rubiobulletins.Rubiobulletin">
+	<bean id="Rubiobulletin2" class="acme.entities.rubiobulletins.Rubiobulletin">
 		<property name="author" value="antonio perez"></property>
 		<property name="link" value="jojoblablabla.com"></property>
 	</bean>
@@ -77,12 +77,12 @@
 	<bean id="Pavonbulletin1" class="acme.entities.pavonbulletins.Pavonbulletin">
 		<property name="author" value="guille"></property>
 		<property name="text" value="cumpleaños"></property>
-		<property name="date" value="2019/09/09 10:00"></property>
+		<property name="date" value="09-09-2019 10:00"></property>
 	</bean>
 	<bean id="Pavonbulletin2" class="acme.entities.pavonbulletins.Pavonbulletin">
 		<property name="author" value="juan"></property>
 		<property name="text" value="cumpleaños"></property>
-		<property name="date" value="2018/10/09 11:00"></property>
+		<property name="date" value="09-10-2018 11:00"></property>
 	</bean>
 	
 	
