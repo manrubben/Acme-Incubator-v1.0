@@ -16,5 +16,88 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 	<import resource="conversion-service.xml" />
+	
+	
+	<!-- DiazBulletin -->
+	
+	
+	<bean id="Bulletin01" class="acme.entities.diazBulletins.DiazBulletin">
+		<property name="surname" value="Diaz"></property>
+		<property name="bulletin" value="Añade una foto"></property>
+	</bean>
+
+	<bean id="Bulletin02" class="acme.entities.diazBulletins.DiazBulletin">
+		<property name="surname" value="Sanabria"></property>
+		<property name="bulletin" value="El banner ha quedado bien"></property>
+		
+	</bean>
+
+	<bean id="Bulletin03" class="acme.entities.diazBulletins.DiazBulletin">
+		<property name="surname" value="Rubio"></property>
+		<property name="bulletin" value="Todo funciona correctamente"></property>
+	</bean>
+
+
+	<!-- RubioBulletin -->
+	
+	<bean id="RubioBulletin1" class="acme.entities.rubioBulletins.RubioBulletin">
+		<property name="author" value="Carles gil"></property>
+		<property name="link" value="http://www.rubiobulletin.com"></property>
+	</bean>
+	
+	<bean id="RubioBulletin2" class="acme.entities.rubioBulletins.RubioBulletin">
+		<property name="author" value="Antonio Perez"></property>
+		<property name="link" value="http://www.bulletins.com"></property>
+	</bean>
+	
+	<!-- GallardoBulletin -->
+	
+	<bean id="GallardoBulletin1" class="acme.entities.gallardoBulletins.GallardoBulletin">
+		<property name="author" value="Antonio Perez"></property>
+		<property name="songAuthor" value="Miley Cyrus"></property>
+	</bean>
+	<bean id="GallardoBulletin2" class="acme.entities.gallardoBulletins.GallardoBulletin">
+		<property name="author" value="Manolo García"></property>
+		<property name="songAuthor" value="David Bisbal"></property>
+	</bean>
+	
+	<!-- SanabriaBulletin -->
+	
+	<bean id="SanabriaBulletin1" class="acme.entities.sanabriaBulletins.SanabriaBulletin">
+		<property name="author" value="Manolo"></property>
+		<property name="song" value="La Macarena"></property>
+	</bean>
+	<bean id="SanabriaBulletin2" class="acme.entities.sanabriaBulletins.SanabriaBulletin">
+		<property name="author" value="Manu"></property>
+		<property name="song" value="Cumpleaños feliz"></property>
+	</bean>
+	
+	<!-- PavonBulletin -->
+	
+	<bean id="PavonBulletin1" class="acme.entities.pavonBulletins.PavonBulletin">
+		<property name="author" value="Guille"></property>
+		<property name="text" value="Cumpleaños"></property>
+		<property name="date" value="09-09-2019 10:00"></property>
+	</bean>
+	<bean id="PavonBulletin2" class="acme.entities.pavonBulletins.PavonBulletin">
+		<property name="author" value="Juan"></property>
+		<property name="text" value="Cumpleaños"></property>
+		<property name="date" value="09-10-2018 11:00"></property>
+	</bean>
+	
+	
+	<!-- MaderoBulletin -->
+	
+	<bean id="MaderoBulletin1" class="acme.entities.maderoBulletins.MaderoBulletin">
+		<property name="author" value="Carles"></property>
+		<property name="photo" value="http://www.fotoGatitos.com"></property>
+		
+	</bean>
+	
+	<bean id="MaderoBulletin2" class="acme.entities.maderoBulletins.MaderoBulletin">
+		<property name="author" value="Antonio"></property>
+		<property name="photo" value="http://www.fotoGatitos2.com"></property>
+		
+	</bean>
 
 </beans>

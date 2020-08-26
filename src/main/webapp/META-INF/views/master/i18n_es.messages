@@ -10,13 +10,13 @@
 
 # master.banner.welcome #######################################################
 
-master.banner.background = #FFE97F 
+master.banner.background = #f9f7ed
 
 ﻿# master.welcome ##############################################################
 
 master.welcome.title = ¡Bienvenidos!
 master.welcome.text = \
-	Bienvenidos a Acme Stater!  Nunca antes ha sido tan sencillo desarrollar un \
+	¡Bienvenidos a Acme Incubator!  Nunca antes ha sido tan sencillo desarrollar un \
 	proyecto y hacerlo funcionar.
 
 # master.menu #################################################################
@@ -25,6 +25,7 @@ master.menu.home = Inicio
 master.menu.sign-up = Registrarse
 master.menu.sign-in = Entrar
 master.menu.sign-out = Salir
+master.menu.bulletin = Boletines
 
 # master.menu.anonymous #######################################################
 
@@ -35,6 +36,22 @@ master.menu.anonymous.favourite-link.ignacio = Enlace favorito de Ignacio
 master.menu.anonymous.favourite-link.alvaro = Enlace favorito de Alvaro
 master.menu.anonymous.favourite-link.josema = Enlace favorito de Josema
 master.menu.anonymous.favourite-link.guille = Enlace favorito de Guille
+master.menu.anonymous.List-Diazbulletins = Listar DiazBoletines
+master.menu.anonymous.Create-Diazbulletins = Crear DiazBoletín
+master.menu.anonymous.List-Rubiobulletins = Listar RubioBoletines
+master.menu.anonymous.Create-Rubiobulletins = Crear RubioBoletín
+master.menu.anonymous.List-Gallardobulletins = Listar GallardoBoletines
+master.menu.anonymous.Create-Gallardobulletins = Crear GallardoBoletín
+master.menu.anonymous.List-Pavonbulletins = Listar PavonBoletines
+master.menu.anonymous.Create-Pavonbulletins = Crear PavonBoletín
+master.menu.anonymous.List-Maderobulletins = Listar MaderoBoletines
+master.menu.anonymous.Create-Maderobulletins = Crear MaderoBoletín
+master.menu.anonymous.List-Sanabriabulletins = Listar SanabriaBoletines
+master.menu.anonymous.Create-Sanabriabulletins = Crear SanabriaBoletín
+
+# master.menu.authenticated ###################################################
+
+master.menu.authenticated = Autenticado
 
 # master.menu.administrator ###################################################
 
@@ -77,10 +94,10 @@ master.footer.label.spanish = Español
 
 master.company.title = La compañía
 master.company.text = \
-	Starter Project, Inc. es una compañía fictícia que proporciona un proyecto \
+	Acme Incubator, Inc. es una compañía ficticia que proporciona un proyecto \
 	plantilla para los estudiantes de la asignatura Diseño y Pruebas, en el Grado \
 	en Ingeniería del Software de la Universidad de Sevilla.
-master.company.name = Starter Project, Inc.
+master.company.name = Acme Incubator, Inc.
 master.company.address = Calle, número, Ciudad, Estado, País
 master.company.phone = +000 123 456
 master.company.email = contact@acme.com

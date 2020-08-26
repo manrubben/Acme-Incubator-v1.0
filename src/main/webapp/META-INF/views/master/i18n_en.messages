@@ -10,13 +10,13 @@
 
 # master.banner.welcome #######################################################
 
-master.banner.background = #FFE97F 
+master.banner.background = #f9f7ed
 
 # master.welcome ##############################################################
 
 master.welcome.title = Welcome!
 master.welcome.text = \
-	Welcome to Starter Project! Never before has it bee easier to get your \
+	Welcome to Acme Incubator! Never before has it bee easier to get your \
 	project up and running!
 
 # master.menu #################################################################
@@ -25,6 +25,7 @@ master.menu.home = Home
 master.menu.sign-up = Sign up
 master.menu.sign-in = Sign in
 master.menu.sign-out = Sign out
+master.menu.bulletin = Bulletins
 
 # master.menu.anonymous #######################################################
 
@@ -35,6 +36,22 @@ master.menu.anonymous.favourite-link.ignacio = Ignacio's favourite link
 master.menu.anonymous.favourite-link.alvaro = Alvaro's favourite link
 master.menu.anonymous.favourite-link.josema = Josema's favourite link
 master.menu.anonymous.favourite-link.guille = Guille's favourite link
+master.menu.anonymous.List-Diazbulletins = List DiazBulletins
+master.menu.anonymous.Create-Diazbulletins = Create DiazBulletin
+master.menu.anonymous.List-Rubiobulletins = List RubioBulletins
+master.menu.anonymous.Create-Rubiobulletins = Create RubioBulletin
+master.menu.anonymous.List-Gallardobulletins = List GallardoBulletins
+master.menu.anonymous.Create-Gallardobulletins = Create GallardoBulletin
+master.menu.anonymous.List-Pavonbulletins = List PavonBulletins
+master.menu.anonymous.Create-Pavonbulletins = Create PavonBulletin
+master.menu.anonymous.List-Maderobulletins = List MaderoBulletins
+master.menu.anonymous.Create-Maderobulletins = Create MaderoBulletin
+master.menu.anonymous.List-Sanabriabulletins = List SanabriaBulletins
+master.menu.anonymous.Create-Sanabriabulletins = Create SanabriaBulletin
+
+# master.menu.authenticated ###################################################
+
+master.menu.authenticated = Authenticated
 
 # master.menu.administrator ###################################################
 
@@ -77,10 +94,10 @@ master.footer.label.spanish = Spanish
 
 master.company.title = La compañía
 master.company.text = \
-	Starter Project, Inc. is a fictitious fictitious company that provides a \
+	Acme Incubator, Inc. is a fictitious company that provides a \
 	starter project for the students of the Design and Testing subject of the \
 	Software Engineering Curriculum of the University of Sevilla.
-master.company.name = Starter Project, Inc.
+master.company.name = Acme Incubator, Inc.
 master.company.address = Number Street, City, State, Country
 master.company.phone = +000 123 456
 master.company.email = contact@acme.com
