@@ -36,17 +36,17 @@ master.menu.anonymous.favourite-link.ignacio = Enlace favorito de Ignacio
 master.menu.anonymous.favourite-link.alvaro = Enlace favorito de Alvaro
 master.menu.anonymous.favourite-link.josema = Enlace favorito de Josema
 master.menu.anonymous.favourite-link.guille = Enlace favorito de Guille
-master.menu.anonymous.List-Diazbulletins = Listar DiazBoletín
+master.menu.anonymous.List-Diazbulletins = Listar DiazBoletines
 master.menu.anonymous.Create-Diazbulletins = Crear DiazBoletín
-master.menu.anonymous.List-Rubiobulletins = Listar RubioBoletín
+master.menu.anonymous.List-Rubiobulletins = Listar RubioBoletines
 master.menu.anonymous.Create-Rubiobulletins = Crear RubioBoletín
-master.menu.anonymous.List-Gallardobulletins = Listar GallardoBoletín
+master.menu.anonymous.List-Gallardobulletins = Listar GallardoBoletines
 master.menu.anonymous.Create-Gallardobulletins = Crear GallardoBoletín
-master.menu.anonymous.List-Pavonbulletins = Listar PavonBoletín
+master.menu.anonymous.List-Pavonbulletins = Listar PavonBoletines
 master.menu.anonymous.Create-Pavonbulletins = Crear PavonBoletín
-master.menu.anonymous.List-Maderobulletins = Listar MaderoBoletín
+master.menu.anonymous.List-Maderobulletins = Listar MaderoBoletines
 master.menu.anonymous.Create-Maderobulletins = Crear MaderoBoletín
-master.menu.anonymous.List-Sanabriabulletins = Listar SanabriaBoletín
+master.menu.anonymous.List-Sanabriabulletins = Listar SanabriaBoletines
 master.menu.anonymous.Create-Sanabriabulletins = Crear SanabriaBoletín
 
 # master.menu.authenticated ###################################################
