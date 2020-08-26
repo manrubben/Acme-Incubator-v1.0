@@ -45,23 +45,23 @@
 	<acme:menu-left>
 		<acme:menu-option code="master.menu.bulletin" access="isAnonymous()">
 
-			<acme:menu-suboption code="master.menu.anonymous.Create-Diazbulletins" action="/anonymous/diazbulletin/create" />
-			<acme:menu-suboption code="master.menu.anonymous.List-Diazbulletins" action="/anonymous/diazbulletin/list" />
+			<acme:menu-suboption code="master.menu.anonymous.Create-Diazbulletins" action="/anonymous/diaz-bulletin/create" />
+			<acme:menu-suboption code="master.menu.anonymous.List-Diazbulletins" action="/anonymous/diaz-bulletin/list" />
 			<acme:menu-separator />
-			<acme:menu-suboption code="master.menu.anonymous.Create-Rubiobulletins" action="/anonymous/rubiobulletin/create" />
-			<acme:menu-suboption code="master.menu.anonymous.List-Rubiobulletins" action="/anonymous/rubiobulletin/list" />
+			<acme:menu-suboption code="master.menu.anonymous.Create-Rubiobulletins" action="/anonymous/rubio-bulletin/create" />
+			<acme:menu-suboption code="master.menu.anonymous.List-Rubiobulletins" action="/anonymous/rubio-bulletin/list" />
 			<acme:menu-separator />
-			<acme:menu-suboption code="master.menu.anonymous.Create-Gallardobulletins" action="/anonymous/gallardobulletin/create" />
-			<acme:menu-suboption code="master.menu.anonymous.List-Gallardobulletins" action="/anonymous/gallardobulletin/list" />
+			<acme:menu-suboption code="master.menu.anonymous.Create-Gallardobulletins" action="/anonymous/gallardo-bulletin/create" />
+			<acme:menu-suboption code="master.menu.anonymous.List-Gallardobulletins" action="/anonymous/gallardo-bulletin/list" />
 			<acme:menu-separator />
-			<acme:menu-suboption code="master.menu.anonymous.Create-Pavonbulletins" action="/anonymous/pavonbulletin/create" />
-			<acme:menu-suboption code="master.menu.anonymous.List-Pavonbulletins" action="/anonymous/pavonbulletin/list" />
+			<acme:menu-suboption code="master.menu.anonymous.Create-Pavonbulletins" action="/anonymous/pavon-bulletin/create" />
+			<acme:menu-suboption code="master.menu.anonymous.List-Pavonbulletins" action="/anonymous/pavon-bulletin/list" />
 			<acme:menu-separator />
-			<acme:menu-suboption code="master.menu.anonymous.Create-Maderobulletins" action="/anonymous/maderobulletin/create" />
-			<acme:menu-suboption code="master.menu.anonymous.List-Maderobulletins" action="/anonymous/maderobulletin/list" />
+			<acme:menu-suboption code="master.menu.anonymous.Create-Maderobulletins" action="/anonymous/madero-bulletin/create" />
+			<acme:menu-suboption code="master.menu.anonymous.List-Maderobulletins" action="/anonymous/madero-bulletin/list" />
 			<acme:menu-separator />
-			<acme:menu-suboption code="master.menu.anonymous.Create-Sanabriabulletins" action="/anonymous/sanabriabulletin/create" />
-			<acme:menu-suboption code="master.menu.anonymous.List-Sanabriabulletins" action="/anonymous/sanabriabulletin/list" />
+			<acme:menu-suboption code="master.menu.anonymous.Create-Sanabriabulletins" action="/anonymous/sanabria-bulletin/create" />
+			<acme:menu-suboption code="master.menu.anonymous.List-Sanabriabulletins" action="/anonymous/sanabria-bulletin/list" />
 
 		</acme:menu-option>
 	</acme:menu-left>
